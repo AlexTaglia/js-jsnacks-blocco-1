@@ -23,7 +23,7 @@ for (var i = 0; i < guestQty; i++) {
     
     var randomGuest = firstName[randomNumfirstName] + " " + lastName[randomNumlastName];
     
-    listHtml += '<li>' + randomGuest + '<li/>';  
+    listHtml += '<li>' + randomGuest + '</li>';
     // outputList.innerHTML += '<br/>' + randomGuest;
 }
 
